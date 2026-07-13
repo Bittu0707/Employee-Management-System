@@ -1,0 +1,21 @@
+# React
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# Spring Boot
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+
+# VS Code
+.vscode/
+
+# STS / Eclipse
+.classpath
+.project
+.settings/
+
+# Logs
+*.log

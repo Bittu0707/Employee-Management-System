@@ -1,0 +1,27 @@
+/* Sidebar Links */
+.sidebar-link {
+  color: white !important;
+  padding: 12px 15px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.sidebar-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateX(8px);
+  color: #fff !important;
+}
+
+/* Active Menu */
+.sidebar-link.active {
+  background-color: #ffffff;
+  color: #0d6efd !important;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Active Icon */
+.sidebar-link.active svg {
+  color: #0d6efd;
+}

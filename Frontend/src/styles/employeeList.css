@@ -1,0 +1,54 @@
+.employee-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+}
+
+.employee-container h2{
+    margin-bottom:20px;
+}
+
+.employee-container input{
+    margin-bottom:20px;
+}
+
+/* Scroll only inside table */
+.table-container{
+    flex:1;
+    overflow-y:auto;
+    overflow-x:auto;
+    border:1px solid #ddd;
+    border-radius:8px;
+}
+
+/* Sticky Header */
+.table thead th{
+    position:sticky;
+    top:0;
+    background:#212529;
+    color:white;
+    z-index:100;
+}
+
+.table{
+    margin-bottom:0;
+    width:100%;
+}
+
+.table td,
+.table th{
+    vertical-align:middle;
+    white-space:nowrap;
+}
+
+.table td:last-child{
+    min-width:140px;
+}
+
+.btn{
+    white-space:nowrap;
+}

@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f6fa;
+}
+
+
+/* ================= Sidebar ================= */
+
+.sidebar {
+
+  width: 250px;
+  min-height: 100vh;
+  background: #111827;
+  color: white;
+  padding: 20px;
+
+}
+
+
+.logo {
+
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: bold;
+
+}
+
+
+.sidebar ul {
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+.sidebar li {
+
+  margin: 15px 0;
+
+}
+
+
+.sidebar a {
+
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+
+}
+
+
+.sidebar a:hover {
+
+  background: rgba(255,255,255,0.15);
+  color: #38bdf8;
+  transform: translateX(8px);
+
+}
+
+
+/* Active Sidebar Menu */
+
+.sidebar a.active {
+
+  background: white;
+  color: #2563eb;
+
+}
+
+
+
+/* ================= Navbar ================= */
+
+.top-navbar {
+
+  height: 65px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+}
+
+
+
+.profile {
+
+  background: #2563eb;
+  color:white;
+  padding:8px 20px;
+  border-radius:20px;
+
+}
+
+
+
+/* ================= Dashboard ================= */
+
+.dashboard-title {
+
+  margin-bottom:30px;
+
+}
+
+
+
+.dashboard-cards {
+
+  display:flex;
+  gap:25px;
+
+}
+
+
+
+.dashboard-card {
+
+  flex:1;
+  padding:30px;
+  border-radius:15px;
+  color:white;
+  box-shadow:0 8px 20px rgba(0,0,0,0.15);
+  transition:0.3s;
+
+}
+
+
+
+.dashboard-card:hover {
+
+  transform:translateY(-8px);
+
+}
+
+
+
+.blue {
+
+  background:#2563eb;
+
+}
+
+
+
+.green {
+
+  background:#16a34a;
+
+}
+
+
+
+.orange {
+
+  background:#ea580c;
+
+}
+
+
+/* ================= ADD EMPLOYEE ================= */
