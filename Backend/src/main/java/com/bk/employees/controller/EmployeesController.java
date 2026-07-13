@@ -18,7 +18,7 @@ import com.bk.employees.service.EmployeesService;
 
 @RestController
 @RequestMapping("/api/employees")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 public class EmployeesController {
 
 	@Autowired
